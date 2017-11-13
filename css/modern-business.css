@@ -3,9 +3,8 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
-
 body {
-  padding-top: 54px;
+  padding-top: -54px;
 }
 
 @media (min-width: 992px) {
@@ -31,6 +30,17 @@ body {
 #navbar{
   float: none;
   margin-top: 5%;
+  border-top-style: groove;
+  border-bottom-style: groove;
+  padding-bottom: 0;
 }
 
-#wrap
+#logo{
+  display : block;
+	margin-left:auto;
+  margin-right:auto;
+  padding-top: -10px;
+  padding-bottom: -10px;
+  width : 150px; 
+  height : auto;
+}
